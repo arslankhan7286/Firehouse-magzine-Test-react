@@ -1,0 +1,34 @@
+/* HomePage Start in CSS */
+
+.home_page{
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+/* Media Queries Start in CSS */
+
+/* Media Query 1024 Start */
+@media (max-width: 1620px){
+    .home_page{
+        max-width: 1400px;
+    }
+}
+@media (max-width: 1420px){
+    .home_page{
+        max-width: 1200px;
+    }
+}
+@media (max-width: 1220px){
+    .home_page{
+        max-width: 1000px;
+    }
+}
+@media (max-width: 1024px){
+    .home_page{
+        display: block;
+        overflow: hidden;
+    }
+}

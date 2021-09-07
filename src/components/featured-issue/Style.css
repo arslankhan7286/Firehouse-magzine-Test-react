@@ -1,0 +1,19 @@
+/* Featured Issue Start in CSS */
+
+.featured_img{
+    width: 580px;
+}
+.grid_img img{
+width: 100%;
+}
+
+/* Media Queries Start in CSS */
+
+/* Media Query 1024 Start */
+@media (max-width: 1024px){
+    .featured_img{
+        width: 100%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}

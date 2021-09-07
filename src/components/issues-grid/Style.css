@@ -1,0 +1,67 @@
+/* Grid-Issue Start in Css */
+
+.grid{
+    margin: 0 auto;
+    width: calc(100% - 410px);
+    margin-left: 70px;
+}
+.grid .grid_card{
+    width: 25%;
+    float: left;
+    padding: 7px;
+    box-sizing: border-box;
+    height: 235px;
+}
+
+.grid .grid_card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* Media Queries Start in CSS */
+@media (max-width: 1420px){
+    .grid {
+        margin: 0 auto;
+        width: calc(100% - 410px);
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1220px){
+    .grid {
+        margin: 0 auto;
+        width: calc(100% - 410px);
+        margin-left: 20px;
+    }
+    .grid .grid_card{
+        width: 33.33%;
+    }
+}
+@media (max-width: 1024px){
+    .grid {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .grid .grid_card{
+        width: 25%;
+    }
+}
+@media (max-width: 768px){
+    .grid .grid_card{
+        width: 33.33%;
+    }
+}
+@media (max-width: 520px){
+    .grid .grid_card{
+        width: 50%;
+    }
+}
+@media (max-width: 420px){
+    .grid .grid_card{
+        width: 100%;
+    }
+}
